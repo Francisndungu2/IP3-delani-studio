@@ -4,3 +4,10 @@
     height: 500;
     text-align: center;
 }
+
+.section2 {
+    background-color: transparent;
+    text-align: center;
+    height: auto;
+    width: 20px;
+}
