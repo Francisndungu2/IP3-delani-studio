@@ -24,3 +24,34 @@
 p {
     text-align: center;
 }
+
+h4 {
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.section4 {
+    text-align: center;
+}
+
+.h6 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.section5 {
+    text-align: center;
+}
+
+img {
+    padding: 0.5%;
+}
+
+.contact {
+    padding-top: 3%;
+    background: url(./backgrounds/c_image.jpg);
+    height: 70vh;
+    height: 500px;
+}
