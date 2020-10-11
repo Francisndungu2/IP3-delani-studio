@@ -1,5 +1,5 @@
 .container {
-    background-image: url(./backgrounds/h_img.jpg);
+    background-image: url(/assets/backgrounds/h_img.jpg);
     width: 500;
     height: 500;
     text-align: center;
