@@ -2,7 +2,6 @@ $(document).ready(function() {
     $(".show1").click(function() {
         $("#hide1").toggle();
         $(".show1").toggle();
-        // $(".img-hidden1").hide();
 
     });
     $("#hide1").click(function() {
@@ -21,12 +20,10 @@ $(document).ready(function() {
     $(".show3").click(function() {
         $("#hide3").toggle();
         $(".img-hidden3").toggle();
-        // $(".img-hidden3").toggle();
     });
     $("#hide3").click(function() {
         $("#hide3").toggle();
         $(".img-hidden3").toggle();
-        // $(".img-hidden3").toggle();
     });
     $(".img4").hover(function() {
         $(".overlay4").show();
@@ -86,7 +83,6 @@ $(document).ready(function() {
             var name = $("#name").val();
             var email = $("#email").val();
             var message = $("#message").val();
-            alert("Thank you " + name + " for getting back to us!");
         });
     });
     $("#work1 images").hover(function() {
@@ -104,4 +100,10 @@ function franc() {
     } else {
         alert("please fill the form");
     }
+    if (email) {
+
+    } else {
+        alert("input email");
+    }
+
 }
