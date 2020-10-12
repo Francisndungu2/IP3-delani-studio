@@ -1,5 +1,5 @@
     .section {
-        background-image: url(/assets/backgrounds/h_img.jpg);
+        background-image: url(../assets/backgrounds/h_img.jpg);
         text-align: center;
         background-size: cover;
     }
@@ -12,7 +12,7 @@
     }
     
     .section3 {
-        background: url(/assets/backgrounds/s_image.jpg);
+        background: url(../assets/backgrounds/s_image.jpg);
         background-size: cover;
         width: auto;
         height: auto;
@@ -55,7 +55,7 @@
     
     .contact {
         padding-top: 3%;
-        background: url(/assets/backgrounds/c_image.jpg);
+        background: url(../assets/backgrounds/c_image.jpg);
         height: 500px;
         padding-bottom: 2%;
     }
