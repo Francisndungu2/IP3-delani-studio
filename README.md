@@ -1,4 +1,4 @@
-# IP3
+# IP3 Delani studio
 #### {This project is for subscribing to a studio platform}, {12/10/2020}
 #### By **Francis ndung'u**    
 ---
@@ -9,13 +9,15 @@
 
 ### Git Hub Live Link
 *click to view my project*
- {}
+ {https://francisndungu2.github.io/IP3-delani-studio/}
  ## Technologies used
  {HTML for creating website}
  {css for styling website}
  {javasript for making project interactive}
  {jquery}
  {bootstrap}
+ ## contacts
+ github  Francisndungu2
 ## Copyright and License
 MIT License
 Copyright (c) [2020] [Francis ndung'u mbugua]
