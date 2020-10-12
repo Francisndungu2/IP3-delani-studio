@@ -79,7 +79,7 @@ $(document).ready(function() {
     });
 
     $("form#form").submit(function(event) {
-        $("form").submit(function(event) {
+        $("").submit(function(event) {
             var name = $("#name").val();
             var email = $("#email").val();
             var message = $("#message").val();
@@ -91,3 +91,7 @@ $(document).ready(function() {
         $(".work1").toggle();
     });
 });
+
+function franc() {
+    alert("Thank you " + name + " for getting back to us!");
+}
