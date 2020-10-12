@@ -78,6 +78,9 @@ $(document).ready(function() {
 
     });
 
+    function franc() {
+        alert("Thank you " + name + " for getting back to us!");
+    }
     $("form#form").submit(function(event) {
         $("").submit(function(event) {
             var name = $("#name").val();
@@ -86,12 +89,19 @@ $(document).ready(function() {
             alert("Thank you " + name + " for getting back to us!");
         });
     });
-
     $("#work1 images").hover(function() {
         $(".work1").toggle();
     });
 });
 
 function franc() {
-    alert("Thank you " + name + " for getting back to us!");
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = $("#message").val();
+
+    if (name) {
+        alert("Thank you " + name + " for getting back to us!");
+    } else {
+        alert("please fill the form");
+    }
 }
